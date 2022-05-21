@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("SimpleCutomRoles")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("An SCPSL plugin which adds customizable roles.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("SimpleCutomRoles")]
-[assembly: AssemblyCopyright("AGPL-3.0 Copyright ©  2022")]
+[assembly: AssemblyCopyright("AGPL-3.0 Copyright © 2022 hds536jhmk")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

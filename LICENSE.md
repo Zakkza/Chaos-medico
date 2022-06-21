@@ -1,7 +1,7 @@
 
 # Simple Custom Roles
 
-Copyright (C) 2022 [hds536jhmk](https://github.com/hds536jhmk/SimpleCutomRoles)
+Copyright (C) 2022 [Marco4413](https://github.com/Marco4413/SimpleCustomRoles)
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as

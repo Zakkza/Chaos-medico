@@ -92,10 +92,10 @@ namespace SCR
     public class SCR : Plugin<SCRConfig>
     {
         public static SCR Instance { get; private set; } = new SCR();
-        public override string Author => "hds536jhmk";
+        public override string Author => "Marco4413";
         public override string Name => "Simple Custom Roles";
         public override string Prefix => "SCR";
-        public override Version Version => new Version(0, 8, 0);
+        public override Version Version => new Version(1, 0, 0);
         public override Version RequiredExiledVersion => new Version(5, 2, 0);
         public override PluginPriority Priority => PluginPriority.Default;
 

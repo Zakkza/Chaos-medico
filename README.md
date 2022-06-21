@@ -1,4 +1,4 @@
-# Simple Cutom Roles
+# Simple Custom Roles
 
 ## What's this plugin all about?
 

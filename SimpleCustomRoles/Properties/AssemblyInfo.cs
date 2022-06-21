@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SimpleCutomRoles")]
+[assembly: AssemblyTitle("SimpleCustomRoles")]
 [assembly: AssemblyDescription("An SCPSL plugin which adds customizable roles.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SimpleCutomRoles")]
+[assembly: AssemblyProduct("SimpleCustomRoles")]
 [assembly: AssemblyCopyright("AGPL-3.0 Copyright © 2022 Marco4413")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

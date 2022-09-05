@@ -25,7 +25,7 @@ namespace SCR
         [Description("Chance for a Base Role to spawn as a Custom one [0.0 - 1.0]")]
         public Dictionary<RoleType, float> CustomRoleChance { get; private set; } = new Dictionary<RoleType, float>()
         {
-            { RoleType.None     , 0.0f },
+            { RoleType.ChaosConscript     , 0.0f },
             { RoleType.Spectator, 0.0f },
             { RoleType.Tutorial , 0.0f }
         };
@@ -35,31 +35,31 @@ namespace SCR
         {
             new CustomRoleDefinition
             {
-                Name = "Major Scientist",
-                BadgeText = "Major Scientist",
-                BadgeColor = "silver",
+                Name = "Chaos Insurgency Medico",
+                BadgeText = "Chaos Insurgency Medico",
+                BadgeColor = "green",
                 BadgeHidden = true,
                 SpawnBroadcast = new ExiledFeatures.Broadcast(
-                    "You're a Major Scientist.", 10, true, Broadcast.BroadcastFlags.Normal
+                    "Sei un Chaos Insurgency Medico", 10, true, Broadcast.BroadcastFlags.Normal
                 ),
-                HP = 200.0f,
+                HP = 120.0f,
                 AHP = -1.0f,
                 AHPDecay = true,
                 SpawnItems = new ItemType[]
                 {
-                    ItemType.KeycardZoneManager, ItemType.ArmorLight, ItemType.Medkit, ItemType.GunCOM15
+                    ItemType.Medkit, ItemType.Medkit, ItemType.Painkillers, ItemType.Adrenaline , ItemType.KeycardChaosInsurgency , ItemType.Adrenaline , ItemType.GunAK , ItemType.Ammo762x39 , ItemType.ArmorCombat , ItemType.Ammo762x39
                 },
                 BaseRoles = new RoleType[]
                 {
-                    RoleType.Scientist
+                    RoleType.ChaosConscript
                 },
                 SpawnLocations = new SpawnLocation[]
                 {
-                    SpawnLocation.Inside173Armory
+                    SpawnLocation.InsideSurfaceNuke
                 },
-                SpawnChance = 0.35f,
+                SpawnChance = 35.0f,
                 MaxPlayers = 1,
-                MinPlayersToSpawn = -1
+                MinPlayersToSpawn = 1
             },
             new CustomRoleDefinition
             {
